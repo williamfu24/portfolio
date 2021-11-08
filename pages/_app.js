@@ -5,7 +5,7 @@ const Website = ({ Component, pageProps, router })=>{
   return(
     <ChakraProvider>
       <Layout router={router}>
-      <Component {...pageProps} key={router.route} />
+        <Component {...pageProps} key={router.route} />
       </Layout>
     </ChakraProvider>
   )

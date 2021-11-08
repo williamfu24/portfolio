@@ -28,6 +28,8 @@ $Project Root
 |_ public
 
 Notes for self:
+  run w/: npm run dev
+
   Things downloaded for this:
     HomeBrew to get GithubCLI
     Install nvm (for nvm install: https://tecadmin.net/install-nvm-macos-with-homebrew/)
@@ -35,3 +37,16 @@ Notes for self:
         to install NPM (comes with node.js)
 
   Install from NPM @chakraui/react @emotion/react @emotion/styled framer-Motion next react react dom
+
+    installed @chakraui/icons for nav bar
+
+
+  Working in Navigation Bar - some missing elements
+    in video compared to mine: (didn't bring anything in)
+    -public : dog.glb + /images
+    -public/images: /contents, /links, /works, footprint-dark.png, footprint.png, inkdrop-banner.jpg, takya.jpg
+    -public/images/contents: blog-500-paid-users.jpg, blog-financial-goal.png, blog-how-to-price-yourself.jpg, youtube-50x-faster.jpg, youtube-fish-workflow.jpg, youtube-my-desk-setup.jpg
+
+      **Replace footprint.png and footprint-dark.png with food/-dark.png
+
+    then we vim components/logo.js
