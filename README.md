@@ -50,3 +50,6 @@ Notes for self:
       **Replace footprint.png and footprint-dark.png with food/-dark.png
 
     then we vim components/logo.js
+
+    NavBar notes:
+      Have posts in navbar and w/in menu. If page is too small to see header links then manu will appear
