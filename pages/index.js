@@ -55,7 +55,7 @@ const Page = () => {
           my horizen and skill sets. Hobbies include gaming (Valorant,
           Old School RuneScape, New World, and Super
           Smash Bros Melee). Occasionally will stream on {' '}
-          <NextLink href="https://www.twitch.tv/10gica1" passHref={true}>
+          <NextLink href="https://www.twitch.tv/10gica1" passHref={true} target="_blank">
             <Link>
               twitch
             </Link>
@@ -104,7 +104,7 @@ const Page = () => {
        </Heading>
        <Paragraph>
          Games, {' '}
-         <Link href="https://open.spotify.com/user/1218885276/" target="_blank">
+         <Link href="https://open.spotify.com/user/1218885276/playlists/" target="_blank">
           Music (Check out my playlists!)
          </Link>
          , Pets, Working out, Soup, Eating, and Learning.
