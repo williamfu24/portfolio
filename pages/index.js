@@ -11,7 +11,7 @@ const Page = () => {
           <Heading as="h2" variant="page-title">
             William Fu
           </Heading>
-          <p> About me: Software Developer, Lifter, Gamer </p>
+          <p> About me: Developer of Software, Lifter of Weights, Player of Games, Friend of Pets</p>
         </Box>
         <Box
           flexShrink={0}
