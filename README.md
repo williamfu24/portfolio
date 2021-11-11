@@ -40,6 +40,7 @@ Notes for self:
 
     installed @chakraui/icons for nav bar
 
+  installed three for 3-d modeling
 
   Working in Navigation Bar - some missing elements
     in video compared to mine: (didn't bring anything in)
