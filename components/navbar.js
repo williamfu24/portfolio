@@ -21,11 +21,13 @@ const LinkItem = ({ href, path, children }) => {
   const active = path === href
   const inactiveColor = useColorModeValue ('grey200', 'whiteAlpha.900')
   return (
-    <NextLink href={href}>
+    <NextLink href={href} passHref>
       <Link
         p={2}
         bg={active ? 'glassTeal' : undefined}
         color={active ? '#202023' : inactiveColor}
+        //_target={_target}
+        //{...props}
       >
         {children}
       </Link>
