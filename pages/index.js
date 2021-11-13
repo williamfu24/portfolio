@@ -77,9 +77,9 @@ const Page = () => {
               </Link>
             </NextLink>
             . His latest project is {' '}
-            <NextLink href="/works/project1">
+            <NextLink href="/">
               <Link>
-                Project1
+                this website!
               </Link>
             </NextLink>
             .
