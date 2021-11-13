@@ -27,30 +27,16 @@ $Project Root
 |   #Static files for images and 3d model Files
 |_ public
 
-Notes for self:
-  run w/: npm run dev
-
   Things downloaded for this:
-    HomeBrew to get GithubCLI
-    Install nvm (for nvm install: https://tecadmin.net/install-nvm-macos-with-homebrew/)
-      to Install Node.js (install node https://www.newline.co/@Adele/how-to-install-nodejs-and-npm-on-macos--22782681)
-        to install NPM (comes with node.js)
+    - HomeBrew to get GithubCLI
+    - Install nvm (for nvm install: https://tecadmin.net/install-nvm-macos-with-homebrew/)
+      - to Install Node.js (install node https://www.newline.co/@Adele/how-to-install-nodejs-and-npm-on-macos--22782681)
+        - to install NPM (comes with node.js)
 
   Install from NPM @chakraui/react @emotion/react @emotion/styled framer-Motion next react react dom
 
-    installed @chakraui/icons for nav bar
+  installed @chakraui/icons for nav bar
 
   installed three for 3-d modeling
 
-  Working in Navigation Bar - some missing elements
-    in video compared to mine: (didn't bring anything in)
-    -public : dog.glb + /images
-    -public/images: /contents, /links, /works, footprint-dark.png, footprint.png, inkdrop-banner.jpg, takya.jpg
-    -public/images/contents: blog-500-paid-users.jpg, blog-financial-goal.png, blog-how-to-price-yourself.jpg, youtube-50x-faster.jpg, youtube-fish-workflow.jpg, youtube-my-desk-setup.jpg
-
-      **Replace footprint.png and footprint-dark.png with food/-dark.png
-
-    then we vim components/logo.js
-
-    NavBar notes:
-      Have posts in navbar and w/in menu. If page is too small to see header links then manu will appear
+  Hosted on vercel
