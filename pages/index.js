@@ -6,6 +6,10 @@ import {
   Heading,
   Image,
   Link,
+  List,
+  ListItem,
+  Icon,
+  SimpleGrid,
   useColorModeValue,
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
@@ -13,6 +17,16 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
+import { GridItem } from '../components/grid-item'
+import {
+  IoLogoTwitter,
+  IoLogoInstagram,
+  IoLogoGithub,
+  IoLogoDiscord,
+  IoLogoTwitch,
+  IoLogoLinkedin,
+  IoLogoFacebook
+} from 'react-icons/io5'
 
 const Page = () => {
   return (
@@ -95,7 +109,7 @@ const Page = () => {
             Hired at M&T Bank in the Technical Development Program
           </BioSection>
           <BioSection>
-            <BioYear>2021 to Present</BioYear>
+            <BioYear>2021 - Present</BioYear>
             Completed Technical Development Program and hired as SE1 on the Real Time Payments Team
           </BioSection>
         </Section>
@@ -111,6 +125,91 @@ const Page = () => {
            </Link>
            , Pets, Working out, Soup, Eating, and Learning.
          </Paragraph>
+      </Section>
+
+       <Section delay={.3}>
+        <Heading as="h3" variant="section-title">
+          On the web
+        </Heading>
+        <List>
+          <ListItem>
+            <Link href="https://www.linkedin.com/in/williamfu24/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoLogoLinkedin} />}
+              >
+                @williamfu24
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://github.com/williamfu24" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoLogoGithub} />}
+              >
+                @williamfu24
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://twitter.com/williamfu_24" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoLogoTwitter} />}
+              >
+                @williamfu_24
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://www.instagram.com/williamfu.24/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoLogoInstagram} />}
+              >
+                @williamfu.24
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://www.facebook.com/william.fu.24/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoLogoFacebook} />}
+              >
+                @william.fu.24
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://discordapp.com/users/261312891884404757" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoLogoDiscord} />}
+              >
+                @williamfu.24#0171
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://www.twitch.tv/10gica1" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoLogoTwitch} />}
+              >
+                @10gica1
+              </Button>
+            </Link>
+          </ListItem>
+        </List>
        </Section>
       </Container>
     </Layout>

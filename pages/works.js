@@ -3,12 +3,8 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 
-import thumbTemp1 from '../public/images/works/Temp1EyeCatcher.png'
-import thumbTempBuddy from '../public/images/works/TempBuddy.png'
-import thumbTempLeo from '../public/images/works/TempLeo.png'
-import thumbTempMango from '../public/images/works/TempMango.png'
-import thumbHands from '../public/images/works/TempHands.png'
-import thumbSuenos from '../public/images/works/TempSuenos.png'
+import thumbPortfolio from '../public/images/works/portfolio_eyecatcher.png'
+import thumbComingSoon from '../public/images/works/comingSoon.png'
 
 const Works = () => {
   return (
@@ -20,25 +16,8 @@ const Works = () => {
 
         <SimpleGrid columns={[1,1,2]} gap={6}>
           <Section>
-            <WorkGridItem id="temp1" title="TempOne" thumbnail={thumbTemp1}>
-              Temp Project 1 - placeholder
-            </WorkGridItem>
-          </Section>
-
-          <Section>
-            <WorkGridItem id="temp2" title="Buddy" thumbnail={thumbTempBuddy}>
-              I will now just be linking cute animals I know
-            </WorkGridItem>
-          </Section>
-
-          <Section delay={0.1}>
-            <WorkGridItem id="temp3" title="Leo" thumbnail={thumbTempLeo}>
-              As I create and add new projects I will update to include them here
-            </WorkGridItem>
-          </Section>
-          <Section delay={0.1}>
-            <WorkGridItem id="temp4" title="Mango" thumbnail={thumbTempMango} >
-              : )
+            <WorkGridItem id="portfolio" title="Personal Portfolio" thumbnail={thumbPortfolio}>
+              A website created to be the hub of information for socials, as well as personal projects
             </WorkGridItem>
           </Section>
         </SimpleGrid>
@@ -47,15 +26,13 @@ const Works = () => {
           <Divider my={6} />
 
           <Heading as="h3" fontSize={20} mb={4}>
-            Collaborations
+            Coming Soon
           </Heading>
         </Section>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
-          <Section delay={0.3}>
-            <WorkGridItem id="temp5" thumbnail={thumbHands} title="Hands"/>
-          </Section>
-          <Section delay={0.3}>
-            <WorkGridItem id="temp6" thumbnail={thumbSuenos} title="Suenos"/>
+          <Section>
+            <WorkGridItem id="comingSoon" title="" thumbnail={thumbComingSoon}>
+            </WorkGridItem>
           </Section>
         </SimpleGrid>
 
