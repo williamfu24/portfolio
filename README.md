@@ -16,4 +16,27 @@ Tools:
   - Three.js
     * 3-D library for Javascript
 
-Notes for self:
+Project Structure:
+$Project Root
+|   #Page Files
+|- pages
+|   #React component Files
+|- component
+|   #Non-react modules
+|- lib
+|   #Static files for images and 3d model Files
+|_ public
+
+  Things downloaded for this:
+    - HomeBrew to get GithubCLI
+    - Install nvm (for nvm install: https://tecadmin.net/install-nvm-macos-with-homebrew/)
+      - to Install Node.js (install node https://www.newline.co/@Adele/how-to-install-nodejs-and-npm-on-macos--22782681)
+        - to install NPM (comes with node.js)
+
+  Install from NPM @chakraui/react @emotion/react @emotion/styled framer-Motion next react react dom
+
+  installed @chakraui/icons for nav bar
+
+  installed three for 3-d modeling
+
+  Hosted on vercel
