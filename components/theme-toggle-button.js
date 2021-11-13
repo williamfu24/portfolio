@@ -12,13 +12,13 @@ const ThemeToggleButton = () => {
         initial = {{ y:-20, opacity:0 }}
         animate = {{ y:0, opacity:1 }}
         exit = {{ y:-20, opacity:0 }}
-        transition = {{ duratio: .2 }}
+        transition = {{ duration: .2 }}
       >
         <IconButton
           aria-label="Toggle theme"
           colorScheme={useColorModeValue('purple', 'orange')}
           icon={useColorModeValue(<MoonIcon />, <SunIcon />)}
-          onClick={toggleColorMode}>
+          onClick={toggleColorMode}
         >
         </IconButton>
       </motion.div>
