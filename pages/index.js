@@ -76,7 +76,7 @@ const Page = () => {
                 twitch
               </Link>
             </NextLink>
-            . His latest project is {' '}
+            . My latest project is {' '}
             <NextLink href="/">
               <Link>
                 this website!
@@ -101,15 +101,15 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            Graduated from Rhodes College with a BA in Computer Science
+            Graduated from Rhodes College with a BS in Computer Science
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            Hired at M&T Bank in the Technical Development Program
+            Worked at M&T Bank in the Technical Development Program
           </BioSection>
           <BioSection>
-            <BioYear>2021 - Present</BioYear>
-            Completed Technical Development Program and hired as SE1 on the Real Time Payments Team
+            <BioYear>2021 - </BioYear>
+            Completed Technical Development Program and working as Software Engineer I (SE1) on the Real Time Payments Team
           </BioSection>
         </Section>
 
