@@ -31,7 +31,9 @@ const Page = () => {
     <Layout>
       <Container>
         <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-        Hello, I&apos;m a full-stack developer. I am learning this! <br/>Project is created with core components: React, NodeJs, Next.js
+        Hello, I&apos;m a full-stack developer. I am learning this!
+        <br/>Project is created with core components: React, NodeJs, Next.js
+        <br/>Project is hosted on Vercel
         </Box>
         <Box display={{md:'flex'}}>
           <Box flexGrow={1}>
@@ -63,12 +65,12 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             Work
           </Heading>
-          <Paragraph>Hi! Wiliam is a Software Engineer I currently working
-            at M&T bank for the Real Time Payments team. I enjoy learning and
-            implementin next technologies and tech stacks to broaden
-            my horizen and skill sets. Hobbies include gaming (Valorant,
+          <Paragraph>Hi! I am a Software Engineer I currently working
+            at M&T Bank for the Real Time Payments team. I enjoy learning and
+            implementing next technologies and tech stacks to broaden
+            my horizon and skill sets. Hobbies include gaming (Valorant,
             Old School RuneScape, New World, and Super
-            Smash Bros Melee). Occasionally will stream on {' '}
+            Smash Bros Melee), and cooking. Occasionally will stream on {' '}
             <NextLink href="https://www.twitch.tv/10gica1" passHref={true} target="_blank">
               <Link>
                 twitch
@@ -80,7 +82,6 @@ const Page = () => {
                 this website!
               </Link>
             </NextLink>
-            .
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
