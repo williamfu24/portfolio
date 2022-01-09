@@ -32,8 +32,8 @@ const Page = () => {
       <Container>
         <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
         Hello, I&apos;m a full-stack developer. I am learning this!
-        <br/>Project is created with core components: React, NodeJs, Next.js
-        <br/>Project is hosted on Vercel
+        <br/>This Project is created with core components: React, NodeJs, Next.js
+        <br/>and is hosted on Vercel
         </Box>
         <Box display={{md:'flex'}}>
           <Box flexGrow={1}>
@@ -66,10 +66,16 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>Hi! I am a Software Engineer I currently working
-            at M&T Bank for the Real Time Payments team. I enjoy learning and
+            at&nbsp;
+            <NextLink href="https://www.kwanti.com" passHref={true} target="_blank">
+              <Link>
+                Kwanti
+              </Link>
+            </NextLink>
+            , a finacial analytics company. I enjoy learning and
             implementing next technologies and tech stacks to broaden
             my horizon and skill sets. Hobbies include gaming (Valorant,
-            Old School RuneScape, New World, and Super
+            Old School RuneScape, and Super
             Smash Bros Melee), and cooking. Occasionally will stream on {' '}
             <NextLink href="https://www.twitch.tv/10gica1" passHref={true} target="_blank">
               <Link>
@@ -96,20 +102,17 @@ const Page = () => {
             Bio
           </Heading>
           <BioSection>
-            <BioYear>1997</BioYear>
-            Born and raised in Baton Rouge, LA.
+            <BioYear>2019:</BioYear>
+            <br></br>Graduated from Rhodes College with a BS in Computer Science
           </BioSection>
           <BioSection>
-            <BioYear>2019</BioYear>
-            Graduated from Rhodes College with a BS in Computer Science
+            <BioYear>2019 - 2021:</BioYear>
+            <br></br>Worked at M&T Bank in the Technical Development Program. Completed the Technical Development Program in 2021
+            and began working as a Software Engineer I (SE1) on the Real Time Payments team.
           </BioSection>
           <BioSection>
-            <BioYear>2019</BioYear>
-            Worked at M&T Bank in the Technical Development Program
-          </BioSection>
-          <BioSection>
-            <BioYear>2021 - </BioYear>
-            Completed Technical Development Program and working as Software Engineer I (SE1) on the Real Time Payments Team
+            <BioYear>2022 - :</BioYear>
+            <br></br>Working at Kwanti as a Software Engineer!
           </BioSection>
         </Section>
 
@@ -120,9 +123,9 @@ const Page = () => {
          <Paragraph>
            Games, {' '}
            <Link href="https://open.spotify.com/user/1218885276/playlists/" target="_blank">
-            Music (Check out my playlists!)
+            music (Check out my playlists!)
            </Link>
-           , Pets, Working out, Soup, Eating, and Learning.
+           , pets, working out, soup, eating, and learning.
          </Paragraph>
       </Section>
 
